@@ -1,0 +1,33 @@
+
+
+
+# --- Python environment ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Secrets: never commit ---
+.env
+
+# --- Generated data (rebuilt by the pipeline) ---
+data/interim/*
+data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# --- Local databases, models, experiment tracking ---
+*.duckdb
+*.duckdb.wal
+models/*
+!models/.gitkeep
+mlruns/
+
+# --- Tool caches ---
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# --- Editor / OS ---
+.vscode/
+Thumbs.db
+.DS_Store

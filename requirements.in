@@ -1,0 +1,12 @@
+
+
+# Milestone 1 packages (more are added in the phase that needs them)
+pandas
+numpy
+duckdb
+matplotlib
+python-dotenv
+streamlit
+ipykernel
+pytest
+ruff
