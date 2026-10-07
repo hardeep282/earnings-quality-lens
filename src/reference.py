@@ -21,3 +21,16 @@ FINANCIALS = {"JPM", "BRK-B", "V", "MA"}
 
 # Non-US filers (used as the comparison group for the 2017 US tax-reform test, H7)
 NON_US = {"TSM", "BABA"}
+
+
+# Rows a data steward excludes from KPI inputs, with the evidence (Phase 3, decision D3).
+# (symbol, first fiscalDateEnding, last fiscalDateEnding, reason)
+MANUAL_EXCLUSIONS = [
+    ("BABA", "2011-06-30", "2012-12-31",
+     "Scale break: revenue x4.6 in one quarter at 2013-03-31; net income exactly 0 in three 2012 quarters"),
+]
+
+# Companies whose KPI is shown with a warning instead of being excluded (Phase 3, decision D7)
+KPI_CAUTION = {
+    "BRK-B": "Vendor revenue and operating income appear to include investment gains",
+}
