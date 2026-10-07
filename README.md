@@ -6,7 +6,7 @@
 
 Quarterly growth-quality scoring and forecasting for 23 global mega-caps (2005–2025), built end to end: data pipeline → statistics → forecasting → dashboard → AI analyst → AWS deployment.
 
-> **Status:** Phase 0 — project setup (in progress)
+> **Status:** Phases 0–3 complete — data quality audited (readiness 96.7/100) and North Star KPI defined, tested and tied out (SQL = pandas). Next: Phase 5 Bronze → Gold skeleton (milestone M1).
 > **Not investment advice.** Portfolio project; the client "Alpha Capital Partners" is fictional.
 
 ## Data
