@@ -1,0 +1,11 @@
+
+
+# Streamlit settings for this project (read from the project root). Step S1.3.
+
+[browser]
+# Do not send usage statistics to Streamlit.
+gatherUsageStats = false
+
+[server]
+# No "enter your email" prompt and no auto-opened browser; open http://localhost:8501 yourself.
+headless = true

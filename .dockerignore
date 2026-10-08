@@ -1,0 +1,17 @@
+
+
+# Keep the build context small and secrets out of the image (step S1.4).
+.git
+.venv
+.env
+**/__pycache__
+.pytest_cache
+.ruff_cache
+.vscode
+data/interim
+data/processed
+*.duckdb
+docs
+notebooks
+Dockerfile
+.dockerignore
