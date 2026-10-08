@@ -6,7 +6,7 @@
 
 Quarterly growth-quality scoring and forecasting for 23 global mega-caps (2005–2025), built end to end: data pipeline → statistics → forecasting → dashboard → AI analyst → AWS deployment.
 
-> **Status:** Phases 0–3 complete — data quality audited (readiness 96.7/100) and North Star KPI defined, tested and tied out (SQL = pandas). Next: Phase 5 Bronze → Gold skeleton (milestone M1).
+> **Status:** > **Status:** Phases 0–3 and the Phase 5 skeleton complete — data quality audited (96.7/100), North Star KPI defined and tested, and a DuckDB Bronze → Silver → Gold warehouse reconciled to the tested Python (0 differences, 28 tests). Rebuild steps: [docs/RUNBOOK.md](docs/RUNBOOK.md). Next: baseline forecast and deployed app (milestone M1).
 > **Not investment advice.** Portfolio project; the client "Alpha Capital Partners" is fictional.
 
 ## Data
